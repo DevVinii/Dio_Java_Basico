@@ -3,8 +3,9 @@ public class ContaTerminal {
 
         ControleBanco controleBanco = new ControleBanco();
 
-        System.out.println("Por favor senhor ");
-        controleBanco.registrarNome();
+        controleBanco.registrarDados();
+
+        controleBanco.mensagemFinal();
     
     }
 }
